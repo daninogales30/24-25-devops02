@@ -2,8 +2,8 @@ version: "3.1"
 
 services:
   galeria:
-    container_name: test
-    image: daniinogaless30/test:latest
+    container_name: galeria
+    image: daniinogaless30/galeria:latest
     ports:
       - 80:5000
     restart: always
